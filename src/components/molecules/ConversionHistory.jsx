@@ -125,39 +125,40 @@ const ConversionHistory = () => {
             key={job.Id} 
             className="flex items-center justify-between p-4 bg-white/80 rounded-xl border border-gray-100 hover:bg-white transition-all duration-200"
           >
-            <div className="flex items-center space-x-4 flex-1 min-w-0">
-              <div className="flex -space-x-2">
-                <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center z-10">
-                  <ApperIcon name={getFormatIcon(job.sourceFormat)} className="w-4 h-4 text-white" />
+<div className="flex items-center space-x-4 md:space-x-3 flex-1 min-w-0">
+              <div className="flex -space-x-2 md:-space-x-1">
+                <div className="w-10 h-10 md:w-8 md:h-8 bg-gradient-to-br from-blue-500 to-blue-600 rounded-xl flex items-center justify-center z-10">
+                  <ApperIcon name={getFormatIcon(job.sourceFormat)} className="w-4 h-4 md:w-3 md:h-3 text-white" />
                 </div>
-                <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
-                  <ApperIcon name={getFormatIcon(job.targetFormat)} className="w-4 h-4 text-white" />
+                <div className="w-10 h-10 md:w-8 md:h-8 bg-gradient-to-br from-green-500 to-green-600 rounded-xl flex items-center justify-center">
+                  <ApperIcon name={getFormatIcon(job.targetFormat)} className="w-4 h-4 md:w-3 md:h-3 text-white" />
                 </div>
               </div>
               
               <div className="flex-1 min-w-0 space-y-1">
-                <h4 className="font-medium text-gray-900 truncate">
+                <h4 className="font-medium text-gray-900 truncate text-sm md:text-base">
                   {job.fileName}
                 </h4>
-                <div className="flex items-center space-x-2 text-xs text-gray-600">
-                  <span>{formatFileSize(job.fileSize)}</span>
-                  <span>•</span>
-                  <span>{job.sourceFormat.toUpperCase()} → {job.targetFormat.toUpperCase()}</span>
-                  <span>•</span>
-                  <span>{formatDistanceToNow(new Date(job.completedAt))} ago</span>
+                <div className="flex items-center space-x-2 md:space-x-1 text-xs md:text-xs text-gray-600 flex-wrap md:gap-1">
+                  <span className="shrink-0">{formatFileSize(job.fileSize)}</span>
+                  <span className="hidden sm:inline">•</span>
+                  <span className="shrink-0">{job.sourceFormat.toUpperCase()} → {job.targetFormat.toUpperCase()}</span>
+                  <span className="hidden sm:inline">•</span>
+                  <span className="shrink-0">{formatDistanceToNow(new Date(job.completedAt))} ago</span>
                 </div>
               </div>
             </div>
 
-            <div className="flex items-center space-x-2">
+<div className="flex items-center space-x-2 md:space-x-1">
               <Button
                 variant="ghost"
                 size="sm"
                 icon="Download"
                 onClick={() => downloadFile(job)}
-                className="text-gray-600 hover:text-primary-600"
+                className="text-gray-600 hover:text-primary-600 px-3 md:px-2 text-sm md:text-xs"
               >
-                Download
+                <span className="hidden sm:inline">Download</span>
+                <span className="sm:hidden">DL</span>
               </Button>
             </div>
           </div>
