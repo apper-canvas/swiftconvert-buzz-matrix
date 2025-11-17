@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "name": "PDF to Word",
+    "sourceFormat": "pdf",
+    "targetFormat": "docx",
+    "icon": "FileText",
+    "color": "blue",
+    "description": "Convert PDF documents to editable Word files",
+    "features": ["Preserve formatting", "Extract text accurately", "Maintain layout"]
+  },
+  {
+    "Id": 2,
+    "name": "Word to PDF",
+    "sourceFormat": "docx",
+    "targetFormat": "pdf",
+    "icon": "FileType",
+    "color": "green",
+    "description": "Convert Word documents to PDF format",
+    "features": ["Professional output", "Secure format", "Universal compatibility"]
+  },
+  {
+    "Id": 3,
+    "name": "PDF to Excel",
+    "sourceFormat": "pdf",
+    "targetFormat": "xlsx",
+    "icon": "FileSpreadsheet",
+    "color": "emerald",
+    "description": "Extract tables and data from PDF to Excel",
+    "features": ["Table recognition", "Data extraction", "Editable spreadsheets"]
+  },
+  {
+    "Id": 4,
+    "name": "Excel to PDF",
+    "sourceFormat": "xlsx",
+    "targetFormat": "pdf",
+    "icon": "FileBarChart",
+    "color": "teal",
+    "description": "Convert Excel spreadsheets to PDF documents",
+    "features": ["Preserve charts", "Multiple sheets", "Print-ready format"]
+  },
+  {
+    "Id": 5,
+    "name": "PDF to PowerPoint",
+    "sourceFormat": "pdf",
+    "targetFormat": "pptx",
+    "icon": "Presentation",
+    "color": "orange",
+    "description": "Convert PDF slides to editable PowerPoint",
+    "features": ["Slide extraction", "Editable content", "Presentation ready"]
+  },
+  {
+    "Id": 6,
+    "name": "PowerPoint to PDF",
+    "sourceFormat": "pptx",
+    "targetFormat": "pdf",
+    "icon": "Monitor",
+    "color": "amber",
+    "description": "Convert PowerPoint presentations to PDF",
+    "features": ["High quality output", "Animation preserved", "Shareable format"]
+  },
+  {
+    "Id": 7,
+    "name": "PDF to Images",
+    "sourceFormat": "pdf",
+    "targetFormat": "jpg",
+    "icon": "Image",
+    "color": "pink",
+    "description": "Convert PDF pages to JPG/PNG images",
+    "features": ["High resolution", "Custom DPI", "Batch conversion"]
+  },
+  {
+    "Id": 8,
+    "name": "Images to PDF",
+    "sourceFormat": "jpg",
+    "targetFormat": "pdf",
+    "icon": "Images",
+    "color": "purple",
+    "description": "Combine multiple images into one PDF",
+    "features": ["Multi-page PDF", "Custom page size", "Image optimization"]
+  }
+]

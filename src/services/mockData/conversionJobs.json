@@ -1,0 +1,67 @@
+[
+  {
+    "Id": 1,
+    "fileName": "annual_report_2023.pdf",
+    "fileSize": 2456789,
+    "sourceFormat": "pdf",
+    "targetFormat": "docx",
+    "status": "completed",
+    "progress": 100,
+    "uploadedAt": "2024-01-15T10:30:00Z",
+    "completedAt": "2024-01-15T10:30:45Z",
+    "downloadUrl": "/downloads/annual_report_2023.docx",
+    "previewUrl": "/previews/annual_report_2023.jpg"
+  },
+  {
+    "Id": 2,
+    "fileName": "presentation_draft.pptx",
+    "fileSize": 5432100,
+    "sourceFormat": "pptx",
+    "targetFormat": "pdf",
+    "status": "completed",
+    "progress": 100,
+    "uploadedAt": "2024-01-15T09:15:00Z",
+    "completedAt": "2024-01-15T09:15:30Z",
+    "downloadUrl": "/downloads/presentation_draft.pdf",
+    "previewUrl": "/previews/presentation_draft.jpg"
+  },
+  {
+    "Id": 3,
+    "fileName": "invoice_template.pdf",
+    "fileSize": 1234567,
+    "sourceFormat": "pdf",
+    "targetFormat": "png",
+    "status": "completed",
+    "progress": 100,
+    "uploadedAt": "2024-01-15T08:45:00Z",
+    "completedAt": "2024-01-15T08:45:15Z",
+    "downloadUrl": "/downloads/invoice_template_pages.zip",
+    "previewUrl": "/previews/invoice_template.jpg"
+  },
+  {
+    "Id": 4,
+    "fileName": "contract_scan.jpg",
+    "fileSize": 3456789,
+    "sourceFormat": "jpg",
+    "targetFormat": "pdf",
+    "status": "processing",
+    "progress": 75,
+    "uploadedAt": "2024-01-15T11:00:00Z",
+    "completedAt": null,
+    "downloadUrl": null,
+    "previewUrl": "/previews/contract_scan.jpg"
+  },
+  {
+    "Id": 5,
+    "fileName": "budget_spreadsheet.xlsx",
+    "fileSize": 987654,
+    "sourceFormat": "xlsx",
+    "targetFormat": "pdf",
+    "status": "error",
+    "progress": 0,
+    "uploadedAt": "2024-01-15T10:15:00Z",
+    "completedAt": null,
+    "downloadUrl": null,
+    "previewUrl": null
+  }
+]

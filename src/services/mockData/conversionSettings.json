@@ -1,0 +1,7 @@
+{
+  "quality": "high",
+  "pageRange": "all",
+  "maintainFormatting": true,
+  "compressionLevel": 75,
+  "outputName": "converted_document"
+}
