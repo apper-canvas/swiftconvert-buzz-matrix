@@ -15,8 +15,8 @@ const Header = () => {
               </div>
             </div>
             <div>
-              <h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
-SwiftConvert Pro
+<h1 className="text-2xl font-bold bg-gradient-to-r from-primary-600 to-secondary-600 bg-clip-text text-transparent">
+SwiftConvert Pro Plus
               </h1>
               <p className="text-sm text-gray-600 -mt-1">Professional PDF Conversion</p>
             </div>
